@@ -4,7 +4,7 @@ require 'erb'
 STYLESHEET = ENV["STYLESHEET"]
 
 style_arg = ""
-style_arg = "-a stylesheet='./data/#{STYLESHEET}'" if STYLESHEET
+style_arg = "-a stylesheet='#{STYLESHEET}'" if STYLESHEET
 
 guard 'shell' do
   watch(/^*.asc$/) {|m|

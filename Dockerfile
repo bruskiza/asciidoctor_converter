@@ -6,9 +6,10 @@ WORKDIR /app
 
 RUN mkdir /app/data
 
+RUN npm install -g mermaid phantomjs
+
 COPY Gemfile Gemfile
 COPY Guardfile Guardfile
-
 
 RUN bundle install
 
