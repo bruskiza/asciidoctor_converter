@@ -11,7 +11,7 @@ It's a work in progress, but gets there.
 ## Installation
 
 ```
-docker pull bruskiza::asciidoctor_converter
+docker pull bruskiza/asciidoctor_converter
 ```
 
 ## Usage
